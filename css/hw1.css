@@ -1,0 +1,125 @@
+/* The body should have padding and margin */
+body {
+    margin: 1%;
+    padding: 1%;
+}
+
+/* The header should have a background color, background image (using a local image), and padding */
+header {
+    background-image: url("../images/flywheel.jpg");
+    background-size: 100%;
+    background-color: #a0c224;
+    height: 180px;
+    padding: 20px;
+}
+
+/* h1 elements should be centered and have a new font color */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* h2 elements have a new font color */
+h2 {
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+nav a {
+    background: #c3c7c5;
+    color: #000000;
+    display: inline-block;
+    padding: 1% 0%;
+    margin: 2%;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255, .5);
+}
+
+/* The link to the current page should be styled differently from the other links (using class = "active') */
+.active {
+    background-color: #FFFFFF;
+}
+
+/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */
+.left {
+    background-color: #75762a;
+    float: left;
+    width: 25%;
+}
+
+.left img {
+    border: solid 2px #000000;
+    width: 75%;
+    display: block;
+    height: 75%;
+    margin: 45px auto; 
+}
+
+/* The sections should be next to each other, not one on top of the other. */
+.right {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 73%;
+    padding: 0 1%;
+}
+
+p,li {
+	font-size: 150%;
+}
+
+/* The table should be styled using at least four properties */
+table {	
+	margin: 0 auto;
+    border-spacing: 2px;
+	font-size: 120%;
+	text-align: center;
+    width: 80%;
+}
+
+/* Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible) */
+tr {
+	opacity: 0.75;
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.3);
+}
+
+/* Change the opacity of a row when it is hovered over */
+tr:hover {
+	opacity: 1;
+}
+
+tr > th {
+	border-bottom-style: solid;
+	border-bottom-color: #b1e053;
+	background-image: -webkit-linear-gradient(#6c8012, #929b4a);
+    background-image: -moz-linear-gradient(#6c8012, #929b4a);
+    background-image: -o-linear-gradient(#6c8012, #929b4a);
+    background-image: linear-gradient(#6c8012, #929b4a);
+	color: #ffffff;
+	border-radius: 5px 5px 0px 0px;
+	border-width: 5px;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+/* The table elements <td> should be styled using at least four properties */
+tr > td {	
+	color: #545750;
+	background-color: #deebd8;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+/* Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered */
+tr > td:first-child, tr > th:first-child {
+	text-align: left;
+}
+
+th, td {
+    padding: 15px;
+}
